@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prithibi Pedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Prithibi Pedia</div>
+            
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Prithibi Pedia</h1>
+        <p>Your go-to channel for Math, English, Science, and General Knowledge videos!</p>
+    </section>
+
+    <section id="videos" class="video-section">
+        <h2>Latest Videos</h2>
+        <div class="video-gallery">
+            <iframe src="https://www.youtube.com/embed/sample_video1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/sample_video2" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/sample_video3" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="categories" class="categories-section">
+        <h2>Categories</h2>
+        <div class="categories">
+            <div class="category">
+                <h3>Math</h3>
+                <p>Learn algebra, calculus, geometry, and more!</p>
+            </div>
+            <div class="category">
+                <h3>English</h3>
+                <p>Improve your grammar, vocabulary, and writing skills.</p>
+            </div>
+            <div class="category">
+                <h3>Science</h3>
+                <p>Explore physics, chemistry, and biology concepts.</p>
+            </div>
+            <div class="category">
+                <h3>General Knowledge</h3>
+                <p>Expand your knowledge with fun facts and trivia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Prithibi Pedia is a YouTube channel dedicated to providing educational content for students of all ages. Our
+            videos cover a wide range of topics including Math, English, Science, and General Knowledge.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prithibi Pedia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
